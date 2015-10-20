@@ -34,7 +34,7 @@
       <option value="0">George</option>
       <option value="1">Ringo</option>
       <option value="2">Paul</option>
-      <option vlaue="3">John</option>
+      <option value="3">John</option>
     </select>
   <br><br>
 
@@ -42,8 +42,10 @@
 </form>
 </p>
 <p>
-<?php require_once('mylib.php');
+<?php
+require_once('mylib.php');
 $myUN = new User();
+include_once('config.php');
 ?>
 </p>
 </body>

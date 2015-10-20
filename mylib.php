@@ -70,4 +70,11 @@ public function userName(){
   $this->username = $uFirstName . $uLastName . $uBeatle;
   echo 'Username: ' . $this->username . '<br>';
 }
+  public function getStuff($element) {
+    $element;
+    $myArray = array($this->firstName, $this->lastName, $this->password, $this->title, $this->beatle, $this->username);
+    return $myArray[$element];
+}
+
+
 }

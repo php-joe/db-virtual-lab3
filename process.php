@@ -8,8 +8,9 @@
 <p>
 
 <?php require_once('mylib.php');
-$myUN = new User();
-$myUN -> userName();
+require_once('mysql.php');
+require_once('config.php');
+
 ?>
 
 </p>
